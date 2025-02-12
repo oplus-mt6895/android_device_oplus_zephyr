@@ -4,11 +4,21 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<<< HEAD:overlay/OPlusSettingsProviderResTarget/AndroidManifest.xml
     package="com.android.providers.settings.overlay.oplus.target">
+========
+    package="com.android.providers.settings.overlay.oplus.ace">
+>>>>>>>> 830e8ef (lisaa-pickle: overlay: Set default device name to market name):overlay/OPlusSettingsProviderResAce/AndroidManifest.xml
 
     <application android:hasCode="false"/>
     <overlay
         android:isStatic="true"
         android:priority="350"
+<<<<<<<< HEAD:overlay/OPlusSettingsProviderResTarget/AndroidManifest.xml
         android:targetPackage="com.android.providers.settings" />
+========
+        android:targetPackage="com.android.providers.settings"
+        android:requiredSystemPropertyName="ro.boot.prjname"
+        android:requiredSystemPropertyValue="21861" />
+>>>>>>>> 830e8ef (lisaa-pickle: overlay: Set default device name to market name):overlay/OPlusSettingsProviderResAce/AndroidManifest.xml
 </manifest>
