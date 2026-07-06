@@ -8,3 +8,6 @@ git clone https://github.com/Adarsh0127-Elite/android_vendor_lineage-priv_keys-t
 cd vendor/lineage-priv/keys
 echo "no" | ./generate.sh
 cd ../../..
+
+echo "Cloning ViPER4AndroidFX"
+git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git packages/apps/ViPER4AndroidFX
