@@ -121,6 +121,7 @@ ro.vendor.smvr.p2batch.fhd=4
 ro.vendor.smvr.p2batch.hd=8
 ro.vendor.smvr.p2batch.vga=32
 vendor.mtk.hwc.HWC_PLAT_SWITCH_EXTEND_SF_TARGET_TS_FOR_VIDEO=1
+ro.surface_flinger.game_default_frame_rate_override=120
 
 # DRM
 drm.service.enabled=true
