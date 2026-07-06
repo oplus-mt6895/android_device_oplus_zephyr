@@ -15,6 +15,20 @@ PRODUCT_NAME := lineage_zephyr
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
+# LunarisAOSP
+LUNARIS_BUILD_TYPE := UNOFFICIAL
+TARGET_CUSTOM_UDFPS := true
+WITH_GMS := true
+WITH_GMS_COMMS_SUITE := false
+WITH_PIXEL_LAUNCHER := false
+TARGET_USE_MAPS := false
+TARGET_USE_FILES := false
+TARGET_USE_GPHOTOS := false
+TARGET_USE_WALLPAPERS := true
+PERF_ANIM_OVERRIDE := true
+USE_REALITY_ENGINE := false
+SURFACE_FLINGER_BOOST := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="sys_mssi_64_cn_armv82-user 15 AP3A.240617.008 1755697740151 release-keys" \
     BuildFingerprint=OnePlus/PGKM10/OP5565:15/AP3A.240617.008/S.1f56c75-1-a469:user/release-keys \
