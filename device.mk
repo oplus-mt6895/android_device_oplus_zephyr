@@ -380,6 +380,9 @@ PRODUCT_COPY_FILES += \
 # Inherit the proprietary files
 $(call inherit-product, vendor/oplus/zephyr/zephyr-vendor.mk)
 
+# OPlus Camera & Gallery
+$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+
 
 # Include keys
 -include vendor/lineage-priv/keys/keys.mk
