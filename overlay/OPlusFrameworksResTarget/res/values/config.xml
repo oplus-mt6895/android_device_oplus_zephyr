@@ -457,4 +457,7 @@
         <item>com.twitter.android:0.07</item>
         <item>com.google.android.youtube:0.07</item>
     </string-array>
+
+    <!-- The name of the package that will hold the system gallery role. -->
+    <string name="config_systemGallery" translatable="false">com.oneplus.gallery</string>
 </resources>
